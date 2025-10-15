@@ -3,12 +3,16 @@ Per inizializzare il progetto, una volta importato nel proprio ide, seguire ques
 ```bash
 python -m venv venv
 ```
+
+# su macOS/Linux
 ```bash
-source venv/bin/activate    # su macOS/Linux
+source venv/bin/activate    
 ```
+ # su Windows
 ```bash
-venv\Scripts\activate       # su Windows
+venv\Scripts\activate      
 ```
+Installazione requisiti librerie
 ```bash
 pip install -r requirements.txt
 ```
